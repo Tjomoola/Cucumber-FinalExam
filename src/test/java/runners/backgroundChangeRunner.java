@@ -8,15 +8,15 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features= "classpath:features",
 		glue= "steps",
-		tags="@NewAccount",
+		tags="@ChangeBackground",
 		monochrome= true,
 		dryRun= false,
 		plugin= {
 				"pretty",
-				"html: target/cucumber",
-				"json: target/cucumber.json"		
+				"html:target/cucumber",
+				"json:target/cucumber.json"		
 		}
 		)
-public class newAccountRunner {
+public class backgroundChangeRunner {
 
 }

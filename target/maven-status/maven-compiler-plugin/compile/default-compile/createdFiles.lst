@@ -1,4 +1,3 @@
+pages\ChangeBackgroungPage.class
 pages\DatabasePage.class
-pages\LoginPage.class
 pages\TestBase.class
-pages\NewAccountPage.class
